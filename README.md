@@ -1,1 +1,1 @@
-# Graph-Graph-A-Nested-Graph-Based-Framework-for-Early-Accident-Anticipation-WACV24
+# Graph(Graph): A Nested Graph-Based Framework for Early Accident Anticipation (WACV 2024)
