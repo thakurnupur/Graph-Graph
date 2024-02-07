@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset 
-Download the data from [link](link) and place it in `data` folder. There are 3 folders for each dataset: 
+Download the data from [link]([link](https://arizonastateu-my.sharepoint.com/:f:/g/personal/nsthaku1_sundevils_asu_edu/EmbzDlO7GodItqzqcYIfOJQByqO1Xz-fW-F_-7qw4letmA?e=Beq1l8)) and place it in `data` folder. There are 3 folders for each dataset: 
 - `obj_feat`: The object data for both datasets is downloaded from [1].
 - `i3d_feat`: We extracted I3D features for all the frames using the code and pretrained model available at [2].
 - `frames_stat`: This contains the resolution for every frame of a video.  
@@ -31,7 +31,7 @@ python train_ccd.py --test_only 0
 The models will be saved in the `model_checkpoints/'dataset-name'` folder. 
 
 ## Evaluation 
-Download our trained models for both the datasets from [here](here). Place them in `model_checkpoints` folder. 
+Download our trained models for both the datasets from [here]([here](https://arizonastateu-my.sharepoint.com/:f:/g/personal/nsthaku1_sundevils_asu_edu/EnJNUD4CpDlOkeuX4CY9CAoB8yxeEpGHxO_QaH_k_osI2A?e=g502SZ)). Place them in `model_checkpoints` folder. 
 
 Use the following command for evaluation: 
 
