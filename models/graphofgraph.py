@@ -36,6 +36,8 @@ class SpaceTempGoG_detr_ccd(nn.Module):
 		# Frame-level graph
 		self.gc2_sg = GATv2Conv(embedding_dim, embedding_dim//2, heads=self.num_heads)  #+
 		self.gc2_norm1 = InstanceNorm((embedding_dim//2)*self.num_heads)
+		self.gc2_i3d = GATv2Conv(embedding_dim*2, embedding_dim//2, heads=self.num_heads)
+		self.gc2_norm2 = InstanceNorm((embedding_dim//2)*self.num_heads)
 
 		self.classify_fc1 = nn.Linear(embedding_dim, embedding_dim//2)
 		self.classify_fc2 = nn.Linear(embedding_dim//2, num_classes)
