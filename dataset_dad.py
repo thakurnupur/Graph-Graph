@@ -35,7 +35,7 @@ class Dataset(Dataset):
 		self.img_dataset_path = img_dataset_path
 		self.feature_paths = self._extract_feature_paths(dataset_path, split_path, training)
 		self.transform = transforms.Compose([transforms.ToTensor(),])
-		self.frame_batch_size = frame_batch_size
+		# self.frame_batch_size = frame_batch_size
 		self.ref_interval = ref_interval
 		self.temporal_ref = 1
 		self.dilation_factor = 1
